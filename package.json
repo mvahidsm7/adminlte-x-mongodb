@@ -11,6 +11,12 @@
     "test:watch": "jest --watch"
   },
   "dependencies": {
+    "@fullcalendar/core": "^6.1.20",
+    "@fullcalendar/daygrid": "^6.1.20",
+    "@fullcalendar/interaction": "^6.1.20",
+    "@fullcalendar/react": "^6.1.20",
+    "@fullcalendar/timegrid": "^6.1.20",
+    "@hello-pangea/dnd": "^18.0.1",
     "@tailwindcss/forms": "^0.5.11",
     "clsx": "^2.1.1",
     "lucide-react": "^1.18.0",
@@ -22,6 +28,7 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.1",
     "@types/jest": "^30.0.0",
     "@types/node": "^20",
     "@types/react": "^19",
