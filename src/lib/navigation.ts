@@ -102,15 +102,7 @@ export const navigation: NavSection[] = [
           { label: 'Timeline', href: '/ui/timeline' },
         ],
       },
-      {
-        label: 'Widgets',
-        icon: Box,
-        children: [
-          { label: 'Cards',     href: '/widgets/cards' },
-          { label: 'Info Box',  href: '/widgets/info-box' },
-          { label: 'Small Box', href: '/widgets/small-box' },
-        ],
-      },
+      { label: 'Widgets', href: '/ui/widgets', icon: Box },
     ],
   },
   {
